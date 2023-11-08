@@ -1,0 +1,373 @@
+[debug] [2023-06-04T14:17:19.441Z] ----------------------------------------------------------------------
+[debug] [2023-06-04T14:17:19.444Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mayank Rathore\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-06-04T14:17:19.444Z] CLI Version:   12.3.0
+[debug] [2023-06-04T14:17:19.445Z] Platform:      win32
+[debug] [2023-06-04T14:17:19.445Z] Node Version:  v18.12.1
+[debug] [2023-06-04T14:17:19.446Z] Time:          Sun Jun 04 2023 19:47:19 GMT+0530 (India Standard Time)
+[debug] [2023-06-04T14:17:19.447Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-04T14:17:19.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-04T14:17:19.609Z] > authorizing via signed-in user (mayankrathore9897@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-06-04T14:17:19.634Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-04T14:17:19.635Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-04T14:17:19.635Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-06-04T14:17:19.666Z] [hub] writing locator at C:\Users\MAYANK~1\AppData\Local\Temp\hub-clone-8c606.json
+[debug] [2023-06-04T14:17:19.730Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-04T14:17:19.730Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-04T14:17:19.730Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-06-04T14:17:19.751Z] defaultcredentials: writing to file C:\Users\Mayank Rathore\AppData\Roaming\firebase\mayankrathore9897_gmail_com_application_default_credentials.json
+[debug] [2023-06-04T14:17:19.757Z] Setting GAC to C:\Users\Mayank Rathore\AppData\Roaming\firebase\mayankrathore9897_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Mayank Rathore\\AppData\\Roaming\\firebase\\mayankrathore9897_gmail_com_application_default_credentials.json"}}
+[debug] [2023-06-04T14:17:19.760Z] > refreshing access token with scopes: []
+[debug] [2023-06-04T14:17:19.763Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-04T14:17:19.764Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-04T14:17:20.035Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-04T14:17:20.035Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-04T14:17:20.050Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606/adminSdkConfig [none]
+[debug] [2023-06-04T14:17:20.599Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606/adminSdkConfig 200
+[debug] [2023-06-04T14:17:20.599Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606/adminSdkConfig {"projectId":"clone-8c606","databaseURL":"https://clone-8c606-default-rtdb.firebaseio.com","storageBucket":"clone-8c606.appspot.com"}
+[debug] [2023-06-04T14:17:20.640Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-8c606/sites 
+[debug] [2023-06-04T14:17:21.942Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-8c606/sites 200
+[debug] [2023-06-04T14:17:21.942Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-8c606/sites {"sites":[{"name":"projects/clone-8c606/sites/clone-8c606","defaultUrl":"https://clone-8c606.web.app","appId":"1:725860854514:web:df8853ff78b7af91f03e6b","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-04T14:17:21.943Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606/webApps/1:725860854514:web:df8853ff78b7af91f03e6b/config [none]
+[debug] [2023-06-04T14:17:23.228Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606/webApps/1:725860854514:web:df8853ff78b7af91f03e6b/config 200
+[debug] [2023-06-04T14:17:23.229Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606/webApps/1:725860854514:web:df8853ff78b7af91f03e6b/config {"projectId":"clone-8c606","appId":"1:725860854514:web:df8853ff78b7af91f03e6b","databaseURL":"https://clone-8c606-default-rtdb.firebaseio.com","storageBucket":"clone-8c606.appspot.com","apiKey":"AIzaSyDlJWG4_JJleBWhqRXRmt6KH5GgELXCG3c","authDomain":"clone-8c606.firebaseapp.com","messagingSenderId":"725860854514","measurementId":"G-7WJRMR40SN"}
+[debug] [2023-06-04T14:17:23.249Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606 [none]
+[debug] [2023-06-04T14:17:23.729Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606 200
+[debug] [2023-06-04T14:17:23.729Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-8c606 {"projectId":"clone-8c606","projectNumber":"725860854514","displayName":"Amazon-clone","name":"projects/clone-8c606","resources":{"hostingSite":"clone-8c606","realtimeDatabaseInstance":"clone-8c606-default-rtdb"},"state":"ACTIVE","etag":"1_7814f76e-ae43-42f3-899c-f786a41254f6"}
+[info] i  hosting[clone-8c606]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-8c606]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-06-04T14:17:23.787Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-04T14:17:23.787Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-04T14:17:23.787Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Mayank Rathore\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Mayank Rathore\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-06-04T14:17:24.050Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-06-04T14:17:24.051Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-06-04T14:17:24.100Z] Validating nodejs source
+[debug] [2023-06-04T14:17:26.444Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-04T14:17:26.444Z] Building nodejs source
+[debug] [2023-06-04T14:17:26.445Z] Failed to find version of module node: reached end of search path C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-04T14:17:26.449Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-04T14:17:26.462Z] Found firebase-functions binary at 'C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-04T14:17:27.660Z] Serving at port 8818
+
+[debug] [2023-06-04T14:17:28.600Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: functions is not defined
+[debug] [2023-06-04T14:17:28.604Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
+     ...  function source: ReferenceError: functions is not defined
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: functions is not defined\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: functions is not defined\n                                         ^"}
+[debug] [2023-06-04T14:17:28.611Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: functions is not defined {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: functions is not defined"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [04/Jun/2023:14:44:28 +0000] "GET / HTTP/1.1" 200 662 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Jun/2023:14:44:28 +0000] \"GET / HTTP/1.1\" 200 662 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\""}}
+[debug] [2023-06-04T15:05:19.782Z] File C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-04T15:05:20.787Z] Validating nodejs source
+[debug] [2023-06-04T15:05:23.996Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-04T15:05:23.997Z] Building nodejs source
+[debug] [2023-06-04T15:05:23.998Z] Failed to find version of module node: reached end of search path C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-04T15:05:24.003Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-04T15:05:24.025Z] Found firebase-functions binary at 'C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-04T15:05:24.776Z] Serving at port 8669
+
+[debug] [2023-06-04T15:05:25.775Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-06-04T15:05:25.787Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-8c606/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-8c606/us-central1/api)."}}
+[debug] [2023-06-04T15:05:51.352Z] File C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-04T15:05:52.400Z] Validating nodejs source
+[debug] [2023-06-04T15:05:55.601Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-04T15:05:55.602Z] Building nodejs source
+[debug] [2023-06-04T15:05:55.602Z] Failed to find version of module node: reached end of search path C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-04T15:05:55.604Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-04T15:05:55.620Z] Found firebase-functions binary at 'C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-04T15:05:56.283Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api-2023-06-04T15:05:56.283Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:05:56.284Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api-2023-06-04T15:05:56.283Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:05:56.285Z] Accepted request GET /clone-8c606/us-central1/api --> us-central1-api
+[debug] [2023-06-04T15:05:56.344Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-06-04T15:05:56.346Z] [functions] Got req.url=/clone-8c606/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-8c606/us-central1/api, mapping to path=/"}}
+[debug] [2023-06-04T15:05:56.452Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-06-04T15:05:56.455Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-06-04T15:05:56.850Z] Serving at port 8983
+
+[debug] [2023-06-04T15:05:58.266Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-06-04T15:05:58.281Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-06-04T15:06:01.473Z] [runtime-status] [22400] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.9.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.9.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-06-04T15:06:01.477Z] [runtime-status] [22400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-06-04T15:06:01.478Z] [runtime-status] [22400] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-06-04T15:06:01.481Z] [runtime-status] [22400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-06-04T15:06:02.382Z] [runtime-status] [22400] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-06-04T15:06:02.383Z] [runtime-status] [22400] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-06-04T15:06:02.385Z] [runtime-status] [22400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-06-04T15:06:02.389Z] [runtime-status] [22400] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.9.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.9.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-06-04T15:06:02.397Z] [runtime-status] [22400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-06-04T15:06:02.399Z] [runtime-status] [22400] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.9.0","resolution":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.9.0\",\"resolution\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-06-04T15:06:03.119Z] [runtime-status] [22400] Functions runtime initialized. {"cwd":"C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions","node_version":"18.12.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Mayank Rathore\\\\Desktop\\\\ama\\\\amazon-clone\\\\functions\",\"node_version\":\"18.12.1\"}"}}
+[debug] [2023-06-04T15:06:03.119Z] [runtime-status] [22400] Listening to port: \\?\pipe\fire_emu_e263c0288d83c22a {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [22400] Listening to port: \\\\?\\pipe\\fire_emu_e263c0288d83c22a"}}
+[debug] [2023-06-04T15:06:03.178Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE"}}
+[debug] [2023-06-04T15:06:03.178Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-06-04T15:06:03.180Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: BUSY"}}
+[debug] [2023-06-04T15:06:03.206Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 26.2674ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 26.2674ms"}}
+[debug] [2023-06-04T15:06:03.208Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE"}}
+[debug] [2023-06-04T15:06:03.208Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-06-04T15:06:03.209Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-06-04T15:06:03.209Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:06:03.218Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api-2023-06-04T15:06:03.218Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:06:03.218Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api-2023-06-04T15:06:03.218Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:06:03.218Z] Accepted request GET /clone-8c606/us-central1/api --> us-central1-api
+[debug] [2023-06-04T15:06:03.230Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-06-04T15:06:03.231Z] [functions] Got req.url=/clone-8c606/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-8c606/us-central1/api, mapping to path=/"}}
+[debug] [2023-06-04T15:06:03.231Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-06-04T15:06:03.234Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: BUSY"}}
+[debug] [2023-06-04T15:06:03.239Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 5.9152ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 5.9152ms"}}
+[debug] [2023-06-04T15:06:03.242Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE"}}
+[debug] [2023-06-04T15:06:03.242Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-06-04T15:06:03.243Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-06-04T15:06:03.243Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:06:03.245Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api-2023-06-04T15:06:03.245Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:06:03.245Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api-2023-06-04T15:06:03.245Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:06:03.245Z] Accepted request GET /clone-8c606/us-central1/api --> us-central1-api
+[debug] [2023-06-04T15:06:03.254Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-06-04T15:06:03.254Z] [functions] Got req.url=/clone-8c606/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-8c606/us-central1/api, mapping to path=/"}}
+[debug] [2023-06-04T15:06:03.254Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-06-04T15:06:03.258Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: BUSY"}}
+[debug] [2023-06-04T15:06:03.263Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 5.6251ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 5.6251ms"}}
+[debug] [2023-06-04T15:06:03.265Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: IDLE"}}
+[debug] [2023-06-04T15:06:03.265Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-06-04T15:06:03.265Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-06-04T15:06:03.265Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:06:03.508Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2023-06-04T15:06:03.515Z] Functions emulator received unknown request at path /favicon.ico
+[info] i  hosting: 127.0.0.1 - - [04/Jun/2023:15:20:04 +0000] "GET /static/css/main.589ec26b.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Jun/2023:15:20:04 +0000] \"GET /static/css/main.589ec26b.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Jun/2023:15:20:04 +0000] "GET /static/js/main.ae8b357f.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Jun/2023:15:20:04 +0000] \"GET /static/js/main.ae8b357f.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Jun/2023:15:20:11 +0000] "POST /payments/create?total=25096 HTTP/1.1" 200 662 "http://127.0.0.1:5000/payment" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Jun/2023:15:20:11 +0000] \"POST /payments/create?total=25096 HTTP/1.1\" 200 662 \"http://127.0.0.1:5000/payment\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Jun/2023:15:20:33 +0000] "POST /payments/create?total=25096 HTTP/1.1" 200 662 "http://127.0.0.1:5000/payment" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Jun/2023:15:20:33 +0000] \"POST /payments/create?total=25096 HTTP/1.1\" 200 662 \"http://127.0.0.1:5000/payment\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\""}}
+[debug] [2023-06-04T15:27:11.568Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:27:11.568Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:27:11.569Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:27:11.568Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:27:11.570Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:28:57.574Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:28:57.574Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:28:57.574Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:28:57.574Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:28:57.575Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:30:54.021Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:30:54.020Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:30:54.022Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:30:54.020Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:30:54.025Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:30:54.029Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:30:54.029Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:30:54.030Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:30:54.029Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:30:54.032Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:31:18.428Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:31:18.427Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:31:18.428Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:31:18.427Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:31:18.430Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:31:18.432Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:31:18.431Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:31:18.432Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:31:18.431Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:31:18.433Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:32:11.976Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:32:11.976Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:32:11.977Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:32:11.976Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:32:11.979Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:34:53.984Z] File C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Mayank Rathore\\Desktop\\ama\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-04T15:34:54.997Z] Validating nodejs source
+[debug] [2023-06-04T15:35:03.748Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-04T15:35:03.749Z] Building nodejs source
+[debug] [2023-06-04T15:35:03.749Z] Failed to find version of module node: reached end of search path C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-04T15:35:03.755Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-04T15:35:03.786Z] Found firebase-functions binary at 'C:\Users\Mayank Rathore\Desktop\ama\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-04T15:35:05.554Z] Serving at port 8926
+
+[debug] [2023-06-04T15:35:07.979Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-06-04T15:35:07.996Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-06-04T15:35:08.033Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2023-06-04T15:35:08.034Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: FINISHING"}}
+[debug] [2023-06-04T15:35:08.064Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: exited"}}
+[debug] [2023-06-04T15:35:08.064Z] [worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-83afe05a-98f9-45f3-9e9f-69e00d3360a2]: FINISHED"}}
+[debug] [2023-06-04T15:35:35.247Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:35:35.246Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:35:35.247Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:35:35.246Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:35:35.249Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:35:35.252Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:35:35.252Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:35:35.253Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:35:35.252Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:35:35.254Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:37:30.789Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api).-2023-06-04T15:37:30.788Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:37:30.790Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api).-2023-06-04T15:37:30.788Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:37:30.792Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:41:59.081Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:41:59.081Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:41:59.082Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:41:59.081Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:41:59.087Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:41:59.090Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:41:59.090Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:41:59.091Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:41:59.090Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:41:59.092Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:42:05.737Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:42:05.737Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:42:05.738Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:42:05.737Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:42:05.740Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:42:05.747Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:42:05.747Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:42:05.747Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:42:05.747Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:42:05.748Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:50:50.185Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:50:50.185Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:50:50.187Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:50:50.185Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:50:50.189Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:50:50.192Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:50:50.192Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:50:50.193Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:50:50.192Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:50:50.194Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:55:13.372Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:55:13.372Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:55:13.372Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:55:13.372Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:55:13.373Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:55:13.377Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:55:13.377Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:55:13.377Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:55:13.377Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:55:13.378Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:59:26.582Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:59:26.582Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:59:26.584Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:59:26.582Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:59:26.588Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:59:26.590Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:59:26.590Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T15:59:26.590Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T15:59:26.590Z"],"workRunningCount":1}
+[debug] [2023-06-04T15:59:26.591Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T17:55:34.230Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T17:55:34.230Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T17:55:34.233Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T17:55:34.230Z"],"workRunningCount":1}
+[debug] [2023-06-04T17:55:34.239Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T17:55:34.243Z] [work-queue] {"queuedWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T17:55:34.243Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T17:55:34.243Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-8c606/us-central1/api)/payments/create-2023-06-04T17:55:34.243Z"],"workRunningCount":1}
+[debug] [2023-06-04T17:55:34.244Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-06-04T19:54:01.546Z] Received signal SIGHUP 1
